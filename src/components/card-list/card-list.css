@@ -1,0 +1,12 @@
+.card-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  width: 85vw;
+  margin: 0 auto;
+}
+
+.monster-img {
+  height: 200px;
+  width: 200px;
+}

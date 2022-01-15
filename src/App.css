@@ -1,5 +1,11 @@
+* {
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
+  background: url('https://images.unsplash.com/photo-1483982258113-b72862e6cff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App-logo {
@@ -7,6 +13,12 @@
   pointer-events: none;
 }
 
+.inputMonster {
+  margin: 20px auto;
+  padding: 20px;
+  width: 400px;
+  border: none;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,7 +26,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,6 +35,11 @@
   color: white;
 }
 
+.title {
+  font-family: 'Bigelow Rules', cursive;
+  color: white;
+  background-color: transparent;
+}
 .App-link {
   color: #61dafb;
 }
